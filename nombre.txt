@@ -1,0 +1,74 @@
+
+Thalia Sirena@DESKTOP-V3KJIOD MINGW64 ~/git-test (master)
+$ git init
+Initialized empty Git repository in C:/Users/Thalia Sirena/git-test/.git/
+
+Thalia Sirena@DESKTOP-V3KJIOD MINGW64 ~/git-test (master)
+$ git remote -v
+
+Thalia Sirena@DESKTOP-V3KJIOD MINGW64 ~/git-test (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        nombre.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Thalia Sirena@DESKTOP-V3KJIOD MINGW64 ~/git-test (master)
+$ git remote add origin https://github.com/Tsirena3113/solucion-curricula-js.git
+
+Thalia Sirena@DESKTOP-V3KJIOD MINGW64 ~/git-test (master)
+$ git remote
+origin
+
+Thalia Sirena@DESKTOP-V3KJIOD MINGW64 ~/git-test (master)
+$ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+
+Thalia Sirena@DESKTOP-V3KJIOD MINGW64 ~/git-test (master)
+$ git add .
+
+Thalia Sirena@DESKTOP-V3KJIOD MINGW64 ~/git-test (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   nombre.txt
+
+
+Thalia Sirena@DESKTOP-V3KJIOD MINGW64 ~/git-test (master)
+$ git commit
+Vim: Error reading input, exiting...
+  $ git commit -m
+bash: $: command not found
+
+Thalia Sirena@DESKTOP-V3KJIOD MINGW64 ~/git-test (master)
+$ git commit -m "primer commit"
+[master (root-commit) 8a91b73] primer commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 nombre.txt
+
+Thalia Sirena@DESKTOP-V3KJIOD MINGW64 ~/git-test (master)
+$ git push -u origin master
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 213 bytes | 213.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/Tsirena3113/solucion-curricula-js.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+Thalia Sirena@DESKTOP-V3KJIOD MINGW64 ~/git-test (master)
+$ ^C
+
+Thalia Sirena@DESKTOP-V3KJIOD MINGW64 ~/git-test (master)
+$
